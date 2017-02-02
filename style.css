@@ -1,0 +1,123 @@
+
+html, body {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+body {
+	background-color: #373D45;
+	color:#979c9b;
+   }
+   
+main {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+} 
+  
+@media screen and (max-width: 500px) {
+	.header {
+		display: block;
+	}
+}	
+
+#clock {
+	color: #ffffff;
+	margin-bottom: 5px;
+}
+#datebox {
+	display: inline-block;
+	font-weight: bold;
+	}
+
+.header {
+	width: 60px;
+	text-align: right;
+	font-weight: bold;
+	margin: 0 10px;
+}	
+
+li {
+	font-size: 17px;
+	font-weight: bold;
+	font-family: "ubuntu mono";
+	display: inline-block;
+	list-style: none;
+	margin: 2px 5px; 
+}
+
+a {
+	color:#979c9b;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+}
+
+#input1 {
+	background: #454B53;
+	color: white;
+	border: none;
+	font-family: "ubuntu mono";
+	font-size: 17px;
+	font-weight: bold;
+	height: 17px;
+	margin-top: 5px;
+	padding: 5px;
+	transition: .2s;
+	width: 100%; 
+	outline: none;
+	text-transform: uppercase;
+}
+
+#help {
+	display: none;
+	margin-top: 10px;
+}
+
+.col {
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+}
+.cmdH {
+	display: block;
+	text-align: right;
+	color: white;
+}
+.actH {
+	display: block;
+	color: white;
+}
+.cmd {
+	display: block;
+	text-align: right;
+}
+.act {
+	display: block;
+}
+
+
+/* COLORS */
+.purple {
+	color: #dd98f2;
+}
+.red {
+	color: #f68678;
+}
+.yellow {
+	color: #f7e595;
+}
+.green {
+	color: #92d690;
+}
+.blue {
+	color: #8293ef;
+}
+
+
+
